@@ -15,4 +15,15 @@ body {
     border-radius: 8px;
     background-color: rgb(170, 197, 16);
     }
+    .quiz-header,
+    .choices{
+    padding-left: 10px;
+    font-size: 20px;
     
+    }
+    
+    .choices-list {
+    border: 1px solid red;
+    border-radius: 3px;
+    padding-top:5px;
+    }    
