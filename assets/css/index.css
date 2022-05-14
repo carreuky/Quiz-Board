@@ -60,5 +60,10 @@ height: auto;
   font-size: 25px;
   color: black;
   font-weight: bold;
- 
+}
+.btnstart:hover {
+  background-color: orange;
+}
+hr{
+  color: brown;
 }
