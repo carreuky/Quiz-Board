@@ -7,7 +7,7 @@ body {
 
 }
 
-.quizcontainer {
+/* .quizcontainer {
     margin: auto;
     margin-top: 50px;
     width: 70%;
@@ -15,8 +15,17 @@ body {
     padding: 10px;
     border-radius: 8px;
     background-color: rgb(170, 197, 16);
+} */
+.questions{
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    border: 3px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(170, 197, 16);
+    display: none;
 }
-
 .quiz-header,
 .choices {
     padding-left: 10px;
@@ -45,4 +54,4 @@ body {
 }
 .nextbtn >button:hover,.prevbtn> button:hover {
     color: blue;
-} 
+}

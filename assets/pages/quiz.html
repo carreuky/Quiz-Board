@@ -13,26 +13,26 @@
 </head>
 
 <body>
-    <div class="quizcontainer">
-        <div class="questions">
+    <!-- <div class="quizcontainer" ;> -->
+        <div class="questions" style="display: block;">
             <h class="quiz-header">1. Which is not a JavaScript Data Types?</h>
             <div class="choices">
                 <p class="choices-list"><input type="radio" id="true" value="true" name="q1"><label> Integer
-                        Language</label></p>
+                    </label></p>
                 <p class="choices-list"><input type="radio" id="false" value="false" name="q1"><label> Booleans
-                        Language</label></p>
+                    </label></p>
                 <p class="choices-list"><input type="radio" id="false" value="false" name="q1"><label> Strings
-                        JavaScript</label></p>
+                    </label></p>
                 <p class="choices-list"><input type="radio" id="false" value="false" name="q1"><label>
                         Numbers</label>
                 </p>
             </div>
             <div class="next-previous">
                 <div class="prevbtn">
-                    <button>Previous</button>
+                    <button onclick="return prev0()">Previous</button>
                 </div>
                 <div class="nextbtn">
-                    <button>Next</button>
+                    <button onclick="return next1()">Next</button>
                 </div>
 
             </div>
@@ -40,82 +40,94 @@
         <div class="questions">
             <h class="quiz-header">2. Inside which HTML element do we put Java Script? </h>
             <div class="choices">
-            <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label> js </js></label></p>
-            <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label> javascript</label></p>
-            <p class="choices-list"><input type="radio" id="false" value="true" name="q2"><label> Script </label></p>
-            <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label>
-            div</label>
-            </p>
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label> js </js></label>
+                </p>
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label>
+                        javascript</label></p>
+                <p class="choices-list"><input type="radio" id="false" value="true" name="q2"><label> Script </label>
+                </p>
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label>
+                        div</label>
+                </p>
             </div>
             <div class="next-previous">
-            <div class="prevbtn">
-            <button>Previous</button>
-            </div>
-            <div class="nextbtn">
-            <button>Next</button>
-            </div>
-            
-            </div>
-            </div>
-            <div class="questions">
-                <h class="quiz-header">3. Where is the correct place to insert a JavaScript? </h>
-                <div class="choices">
-                <p class="choices-list"><input type="radio" id="true" value="true" name="q3"><label> The head section </js></label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q3"><label> Both head and body</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q3"><label> body section </label></p>
-                div</label>
-                </p>
-                </div>
-                <div class="next-previous">
                 <div class="prevbtn">
-                <button>Previous</button>
+                    <button onclick="return prev1()">Previous</button>
                 </div>
                 <div class="nextbtn">
-                <button>Next</button>
+                    <button onclick="return next2()">Next</button>
                 </div>
-                
+
+            </div>
+        </div>
+        <div class="questions">
+            <h class="quiz-header">3. Where is the correct place to insert a JavaScript? </h>
+            <div class="choices">
+                <p class="choices-list"><input type="radio" id="true" value="true" name="q3"><label> The head section
+                        </js></label></p>
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q3"><label> Both head and
+                        body</label></p>
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q3"><label> body section
+                    </label></p>
+                div</label>
+                </p>
+            </div>
+            <div class="next-previous">
+                <div class="prevbtn">
+                    <button onclick="return prev2()">Previous</button>
                 </div>
+                <div class="nextbtn">
+                    <button onclick="return next3()">Next</button>
                 </div>
-                <div class="questions">
-                    <h class="quiz-header">4. What is the correct syntax for referring to an external script called "xxx.js"?
-                    </h>
-                    <div class="choices">
-                    <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label> script name="" </label></p>
-                    <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label> script href=""</label></p>
-                    <p class="choices-list"><input type="radio" id="true" value="true" name="q4"><label> script src=""</label></p></label>
-                    </p>
-                    <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label> script img=""</label></p>
-                    
-                    </div>
-                    <div class="next-previous">
-                    <div class="prevbtn">
-                    <button>Previous</button>
-                    </div>
-                    <div class="nextbtn">
-                    <button>Next</button>
-                    </div>
-                    
-                    </div>
-                    </div>
-                    <div class="questions">
-                        <h class="quiz-header">5. The external JavaScript file must contain the script tag.
-                        
-                        </h>
-                        <div class="choices">
-                        <p class="choices-list"><input type="radio" id="false" value="false" name="q5"><label> script name="" </label></p>
-                        <p class="choices-list"><input type="radio" id="true" value="true" name="q5"><label> script href=""</label></p>
-                        </div>
-                        <div class="next-previous">
-                        <div class="prevbtn">
-                        <button>Previous</button>
-                        </div>
-                        <div class="nextbtn">
-                        <button>Next</button>
-                        </div>
-                        
-                        </div>
-                        </div>
-    </div>
+
+            </div>
+        </div>
+        <div class="questions">
+            <h class="quiz-header">4. What is the correct syntax for referring to an external script called "xxx.js"?
+            </h>
+            <div class="choices">
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label> script name=""
+                    </label></p>
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label> script
+                        href=""</label></p>
+                <p class="choices-list"><input type="radio" id="true" value="true" name="q4"><label> script
+                        src=""</label></p></label>
+                </p>
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label> script
+                        img=""</label></p>
+
+            </div>
+            <div class="next-previous">
+                <div class="prevbtn">
+                    <button onclick="return prev3()">Previous</button>
+                </div>
+                <div class="nextbtn">
+                    <button onclick="return next4()">Next</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="questions">
+            <h class="quiz-header">5. The external JavaScript file must contain the script tag.
+
+            </h>
+            <div class="choices">
+                <p class="choices-list"><input type="radio" id="false" value="false" name="q5"><label> script name=""
+                    </label></p>
+                <p class="choices-list"><input type="radio" id="true" value="true" name="q5"><label> script
+                        href=""</label></p>
+            </div>
+            <div class="next-previous">
+                <div class="prevbtn">
+                    <button onclick="return prev4()">Previous</button>
+                </div>
+                <div class="nextbtn">
+                    <button>Submit</button>
+                </div>
+
+            </div>
+        </div>
+    <!-- </div> -->
 </body>
 
 </html>
