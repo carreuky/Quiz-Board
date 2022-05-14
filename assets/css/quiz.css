@@ -6,6 +6,7 @@ body {
     font-family: Poppins;
 
 }
+
 .quizcontainer {
     margin: auto;
     margin-top: 50px;
@@ -14,16 +15,34 @@ body {
     padding: 10px;
     border-radius: 8px;
     background-color: rgb(170, 197, 16);
-    }
-    .quiz-header,
-    .choices{
+}
+
+.quiz-header,
+.choices {
     padding-left: 10px;
     font-size: 20px;
-    
-    }
-    
-    .choices-list {
+
+}
+
+.choices-list {
     border: 1px solid red;
     border-radius: 3px;
-    padding-top:5px;
-    }    
+    padding-top: 5px;
+}
+
+.next-previous {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nextbtn > button,.prevbtn > button {
+    background-color: chocolate;
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+}
+.nextbtn >button:hover,.prevbtn> button:hover {
+    color: blue;
+} 
