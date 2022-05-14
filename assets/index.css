@@ -49,3 +49,16 @@ height: auto;
   color: black;
   margin: 5px;
 }
+.btnstart{
+  padding: 15px 32px;
+  background-color: transparent;
+  border-color: black ;
+  border-radius: 8px;
+}
+.btnstart > a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+ 
+}
