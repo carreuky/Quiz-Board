@@ -13,10 +13,14 @@ function next1() {
     document.getElementById('f1b').checked ||
     document.getElementById('f1c').checked ||
     document.getElementById('f1d').checked) {
+    
 } else {
     alert("Oops!! unanswered question ONE");
     return false;
 }
+
+
+
     document.getElementsByClassName("questions")[0].style.display = "none";
     document.getElementsByClassName("questions")[1].style.display = "block";
     document.getElementsByClassName("questions")[2].style.display = "none";
@@ -97,14 +101,14 @@ function total() {
     var comment;
 
     if(scoreInToPercentage>=80 && scoreInToPercentage<=100){
-        comment="Excellent Passeg Champ !!"
+        comment="Excellent Passed Champ !!"
     }else if(scoreInToPercentage>=50 && scoreInToPercentage<80){
-        comment="Fairly Passed"
+        comment="Fairly Passed closer Champ !!"
     }else{
-        comment="Retake test you can be a champ too !!"
+        comment="Refresh and retake test you can be a champ too !!"
     }
 
-    document.getElementById("per").innerHTML = scoreInToPercentage;
+    document.getElementById("per").innerHTML = scoreInToPercentage + '%';
     document.getElementById("comment").innerHTML = comment;
 
 
