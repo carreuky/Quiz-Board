@@ -27,6 +27,8 @@ Click this link to view the live application https://carreuky.github.io/Quiz-Boa
 * HTML -to develop the structure off the page
 * CSS - to style the User Interface
 * JavaScript - make the page dynamic and lively
+# BUGS
+You may find issues with my Java Script please leave a comment on it I check.
 
 *****
 # LICENSE
