@@ -22,7 +22,7 @@ As a user you should be able to:
 * Open the index.html file from the zipped file with any browser.
 
 # Live Link
-- Click this link to view the live application https://carreuky.github.io/Quiz-Board
+Click this link to view the live application https://carreuky.github.io/Quiz-Board
 # Languages Used
 * HTML -to develop the structure off the page
 * CSS - to style the User Interface
