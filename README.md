@@ -10,7 +10,7 @@ As a user you should be able to:
 
 1. Start the quizes
 2. See and read questions
-3. Select the appropriate answer for the       question
+3. Select the appropriate answer for the question
 4. Submit the answers
 5. View the results of your attempt
 # Atempting Quiz
@@ -30,7 +30,7 @@ Click this link to view the live application https://carreuky.github.io/Quiz-Boa
 * CSS - to style the User Interface
 * JavaScript - make the page dynamic and lively
 # Contribution
-Open to contribution to make my web page more interactive to user. A simpler way to make my Java Script more easy to excute is appreciated.
+OPen to contribution to make my web page more interactive to user. A simpler way to make my Java Script more easy to excute is appreciated.
 ****
 # LICENSE
 * Application free of charge.
