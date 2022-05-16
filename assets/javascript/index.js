@@ -1,13 +1,6 @@
-// Entering quiz page
-// const start = document.querySelector(".btnstart");
-
-// start.addEventListener("click", ()=>{
-//     location.href="../assets/css/quiz.html"
-// })
-// Displaying the first question
 document.getElementsByClassName("questions")[0].style.display = "block";
 // Activating the next question
-function next1() {
+function btnnext1() {
 
     if (document.getElementById('t1').checked ||
     document.getElementById('f1b').checked ||
@@ -28,7 +21,7 @@ function next1() {
     document.getElementsByClassName("questions")[4].style.display = "none";
     return false;
 }
-function next2() {
+function btnnext2() {
     document.getElementsByClassName('questions')[0].style.display = "none";
     document.getElementsByClassName('questions')[1].style.display = "none";
     document.getElementsByClassName('questions')[2].style.display = "block";
@@ -36,14 +29,14 @@ function next2() {
     document.getElementsByClassName('questions')[4].style.display = "none";
     return false;
 }
-function next3() {
+function btnnext3() {
     document.getElementsByClassName("questions")[0].style.display = "none";
     document.getElementsByClassName("questions")[1].style.display = "none";
     document.getElementsByClassName("questions")[2].style.display = "none";
     document.getElementsByClassName("questions")[3].style.display = "block";
     return false;
 }
-function next4() {
+function btnnext4() {
     document.getElementsByClassName('questions')[0].style.display = "none";
     document.getElementsByClassName('questions')[1].style.display = "none";
     document.getElementsByClassName('questions')[2].style.display = "none";
@@ -52,7 +45,7 @@ function next4() {
     return false;
 }
 // Activating previous button
-function prev1() {
+function backbtn1() {
     document.getElementsByClassName("questions")[0].style.display = "block";
     document.getElementsByClassName("questions")[1].style.display = "none";
     document.getElementsByClassName("questions")[2].style.display = "none";
@@ -60,7 +53,7 @@ function prev1() {
     document.getElementsByClassName("questions")[4].style.display = "none";
     return false;
 }
-function prev2() {
+function backbtn2() {
     document.getElementsByClassName('questions')[0].style.display = "none";
     document.getElementsByClassName('questions')[1].style.display = "block";
     document.getElementsByClassName('questions')[2].style.display = "none";
@@ -68,14 +61,14 @@ function prev2() {
     document.getElementsByClassName('questions')[4].style.display = "none";
     return false;
 }
-function prev3() {
+function backbtn3() {
     document.getElementsByClassName("questions")[0].style.display = "none";
     document.getElementsByClassName("questions")[1].style.display = "none";
     document.getElementsByClassName("questions")[2].style.display = "block";
     document.getElementsByClassName("questions")[3].style.display = "none";
     return false;
 }
-function prev4() {
+function backbtn4() {
     document.getElementsByClassName('questions')[0].style.display = "none";
     document.getElementsByClassName('questions')[1].style.display = "none";
     document.getElementsByClassName('questions')[2].style.display = "none";
