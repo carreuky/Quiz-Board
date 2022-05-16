@@ -8,29 +8,29 @@ This is a quiz application done using HTML CSS and Javascript. Allows user to se
 # Usage
 As a user you should be able to:
 
-1. Start the quizes
+1. Start the quiz
 2. See and read questions
 3. Select the appropriate answer for the question
 4. Submit the answers
 5. View the results of your attempt
-# Atempting Quiz
+# Gauge yourself
 * Access to  a computer, mobile phone or any other garget
  * Internet access
 # Installation Process
-* Click to this link and access my repo : git clone https://github.com/carreuky/Quiz-Board
+* Click to this link and access my repo https://github.com/carreuky/Quiz-Board
 * Unzip the downloaded files in a folder of choice.
 * Open the index.html file with any browser.
 # Support
 You can get assistance from me by reaching me on my email address carreuky@gmail.com. Response time within 20minutes.
 
 # Live Link
-Click this link to view the live application https://carreuky.github.io/Quiz-Board
+Click this link to view the live web application https://carreuky.github.io/Quiz-Board
 # Languages Used
-* HTML -to develop the structure off the page
+* HTML -to develop the structure of the page
 * CSS - to style the User Interface
 * JavaScript - make the page dynamic and lively
 # Contribution
-OPen to contribution to make my web page more interactive to user. A simpler way to make my Java Script more easy to excute is appreciated.
+Open to contribution to make my web page user friendly . A simpler way to make my Java Script more easy to excute is appreciated.
 ****
 # LICENSE
 * Application free of charge.
